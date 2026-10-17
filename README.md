@@ -2,7 +2,7 @@
 
 A data analysis application powered by a fine-tuned Qwen3-4B model that converts natural-language questions into SQL queries and executes them to return results.
 
-**[Live Demo](https://occupations-years-bus-systematic.trycloudflare.com)**
+**[Live Demo]([https://occupations-years-bus-systematic.trycloudflare.com](https://waves-friends-representations-they.trycloudflare.com?utm_source=chatgpt.com))**
 
 ## Features
 
