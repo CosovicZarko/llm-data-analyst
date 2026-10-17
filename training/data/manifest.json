@@ -1,0 +1,101 @@
+{
+  "seed": 20261015,
+  "source": "synthetic, deterministic templates; no benchmark cases used",
+  "domain_split": {
+    "train": [
+      "cinema_bookings",
+      "cycling_rentals",
+      "hotel_stays",
+      "cafe_catering",
+      "pet_grooming",
+      "furniture_orders",
+      "museum_visits",
+      "fitness_classes",
+      "music_lessons"
+    ],
+    "validation": [
+      "beach_equipment",
+      "language_courses",
+      "garden_supplies"
+    ],
+    "test": [
+      "art_exhibitions",
+      "pool_reservations",
+      "vehicle_cleaning"
+    ]
+  },
+  "num_schemas": {
+    "train": 54,
+    "validation": 18,
+    "test": 18
+  },
+  "examples": {
+    "train": 2484,
+    "validation": 828,
+    "test": 828
+  },
+  "skills": {
+    "train": {
+      "arithmetic": 216,
+      "avg": 54,
+      "conditional": 216,
+      "count": 108,
+      "date": 108,
+      "distinct": 54,
+      "filter": 108,
+      "filter_having": 108,
+      "filter_sum": 54,
+      "filter_top": 108,
+      "filter_units": 54,
+      "group": 216,
+      "group_top": 324,
+      "having": 324,
+      "multi_filter": 108,
+      "no_implicit_filter": 216,
+      "sum": 108
+    },
+    "validation": {
+      "arithmetic": 72,
+      "avg": 18,
+      "conditional": 72,
+      "count": 36,
+      "date": 36,
+      "distinct": 18,
+      "filter": 36,
+      "filter_having": 36,
+      "filter_sum": 18,
+      "filter_top": 36,
+      "filter_units": 18,
+      "group": 72,
+      "group_top": 108,
+      "having": 108,
+      "multi_filter": 36,
+      "no_implicit_filter": 72,
+      "sum": 36
+    },
+    "test": {
+      "arithmetic": 72,
+      "avg": 18,
+      "conditional": 72,
+      "count": 36,
+      "date": 36,
+      "distinct": 18,
+      "filter": 36,
+      "filter_having": 36,
+      "filter_sum": 18,
+      "filter_top": 36,
+      "filter_units": 18,
+      "group": 72,
+      "group_top": 108,
+      "having": 108,
+      "multi_filter": 36,
+      "no_implicit_filter": 72,
+      "sum": 36
+    }
+  },
+  "sha256": {
+    "train": "797ec01bc6cd17bc9b7047c12f6f23562c5e4e932554b804cb4a576111b10c52",
+    "validation": "aa9cc72f0582d0dd08958e770d4d4ccd8622959562031f2aa6d72f5ae3479696",
+    "test": "e04bc732cb52367f16b7cc9c47c3f67623fecb738c45cd27071ee9d8050f3f09"
+  }
+}

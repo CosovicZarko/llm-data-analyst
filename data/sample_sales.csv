@@ -1,0 +1,11 @@
+order_id,customer,region,product,revenue,order_date
+1,Acme,West,Laptop,1200,2025-02-01
+2,Beta,East,Monitor,800,2025-02-05
+3,Acme,West,Monitor,500,2025-03-03
+4,Gamma,North,Laptop,1600,2025-03-15
+5,Beta,East,Laptop,1100,2025-04-01
+6,Acme,West,Keyboard,200,2025-04-04
+7,Gamma,North,Monitor,700,2025-04-12
+8,Delta,South,Laptop,900,2025-05-01
+9,Beta,East,Keyboard,150,2025-05-14
+10,Delta,South,Monitor,300,2025-06-01

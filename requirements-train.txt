@@ -1,0 +1,9 @@
+# Install ONLY on a CUDA-enabled Google Cloud Linux VM.
+# First install the CUDA-compatible PyTorch wheel for your VM image.
+transformers>=4.56,<5
+datasets>=3.0,<5
+trl>=0.24,<0.28
+peft>=0.17,<0.21
+accelerate>=1.4,<2
+bitsandbytes>=0.45,<0.50
+safetensors>=0.5,<1

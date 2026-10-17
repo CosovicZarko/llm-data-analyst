@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+model-checkpoints/
+*.safetensors
+*.gguf
+*.zip
+app.py.before-*
+*.log
+.streamlit/secrets.toml
+
+tests/test_streamlit_model_selector.py.disabled
+
+.streamlit/secrets.toml
