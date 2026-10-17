@@ -2,7 +2,7 @@
 
 A data analysis application powered by a fine-tuned Qwen3-4B model that converts natural-language questions into SQL queries and executes them to return results.
 
-**[Live Demo](https://bali-todd-receivers-flexible.trycloudflare.com](https://occupations-years-bus-systematic.trycloudflare.com)**
+**[Live Demo]([https://bali-todd-receivers-flexible.trycloudflare.com](https://occupations-years-bus-systematic.trycloudflare.com))**
 
 ## Features
 
