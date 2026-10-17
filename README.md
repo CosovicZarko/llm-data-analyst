@@ -1,24 +1,37 @@
 # LLM Data Analyst
 
-Analyze CSV and Excel datasets using natural-language questions and a fine-tuned Qwen3-4B language model.
+A data analysis application powered by a fine-tuned Qwen3-4B model that converts natural-language questions into SQL queries and executes them to return results.
+
+**[Live Demo](https://bali-todd-receivers-flexible.trycloudflare.com)**
 
 ## Features
 
-- Upload CSV and Excel datasets.
-- Ask multiple questions about the same dataset.
-- Generate and execute DuckDB SQL queries.
-- View generated SQL and query results.
-- Automatically correct SQL execution errors.
+- Upload CSV and Excel files.
+- Ask multiple questions in natural language.
+- Generate and execute SQL using DuckDB.
+- Display query results and generated SQL.
+- Automatically repair SQL execution errors.
+
+## Model
+
+Qwen3-4B fine-tuned on 2,484 text-to-SQL examples using Google Cloud Vertex AI.
+
+**Benchmark accuracy (80 questions):**
+
+| Model | Accuracy |
+|---|---:|
+| Pretrained | 78.75% |
+| Fine-tuned | 83.75% |
 
 ## Tech Stack
 
-Python, Streamlit, DuckDB, Ollama, Qwen3-4B, SQLGlot, Google Cloud Vertex AI.
+Python · Streamlit · Qwen3-4B · Ollama · DuckDB · SQLGlot · Google Cloud Vertex AI
 
 ## Run Locally
 
-Start Ollama with the fine-tuned model registered as `qwen-sql-analyst:v1`.
+Requires the fine-tuned model registered in Ollama as `qwen-sql-analyst:v1`.
 
 ```bash
-python -m pip install -r requirements.txt
-python -m streamlit run app.py
+pip install -r requirements.txt
+streamlit run app.py
 ```
