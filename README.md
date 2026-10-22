@@ -2,7 +2,7 @@
 
 A data analysis application powered by a fine-tuned Qwen3-4B model that converts natural-language questions into SQL queries and executes them to return results.
 
-**[Live Demo](https://waves-friends-representations-they.trycloudflare.com)**
+**[Live Demo](https://chubby-designated-sudden-syntax.trycloudflare.com)**
 
 ## Features
 
